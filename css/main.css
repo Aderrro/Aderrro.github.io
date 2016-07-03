@@ -1,0 +1,188 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header h1 {
+    margin-top:0;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+img{
+	max-width: 100%;
+}
+
+
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+	clear:both;
+}
+
+a {
+	color: #018fb8;
+}
+
+/*blue header*/
+header {
+	background-color: #018fb8;
+	border-color: #0080a5;
+}
+/*logo text*/
+h1 {
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	margin: 15px 0;
+	font-size: 3em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-family: 'Poiret One', sans-serif;
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 50px;
+	color: #ccc;
+	clear: both;
+}
+
+/*nav background mobile*/
+nav {
+	background: #0080a5;
+}
+
+/*selected nav*/
+nav a, nav a:visited {
+	color: white;
+}
+
+nav a.selected, nav a:hover {
+	color: #00a1df;
+}
+
+/*site body*/ 
+body {
+	background-color: white;
+	color: #999;
+}
+
+/****************************
+PERSONEL
+****************************/
+
+#personel {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+#personel li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	background-color: #f5f5f5;
+	color: #bdc3c7;
+}
+
+#personel li p {
+	margin: 0;
+	font-size: 0.75em;
+
+}
+
+#personel li h3 {
+	margin: 0;
+	font-size: 1em;
+
+}
+
+#personel img {
+	border-radius:0%;
+}
+
+
+/****************************
+KONTAKT
+****************************/
+
+.kontakt-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.kontakt-info a{
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+
+.kontakt-info li.telefon a{
+	background-image: url('../img/phone-call.png');
+}
+
+.kontakt-info li.mail a{
+	background-image: url('../img/envelope.png');
+}
+
+.onas {
+	display: block;
+	text-align: left;
+	float: left;
+}
+
+.aktualnosci {
+	display: block;
+	text-align: left;
+	float: left;
+}
+
+ #map {
+        max-width: 100%;
+        height: 400px;
+        background-color: grey;
+    }
