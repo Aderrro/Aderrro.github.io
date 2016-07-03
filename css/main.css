@@ -186,3 +186,22 @@ KONTAKT
         height: 400px;
         background-color: grey;
     }
+
+#galeria {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#galeria li {
+	float: left;
+	width: 50%;
+	margin: 2.5%;
+	background-color: #f5f5f5;
+	color: #bdc3c7;
+}
+
+#personel li p {
+	margin: 0;
+	font-size: 0.75em;
+}

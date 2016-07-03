@@ -17,6 +17,14 @@
 		clear: left;
 	}
 
+	#galeria li {
+		width: 28.3333%;
+	}
+	
+	#galeria li:nth-child(4n) {
+		clear: left;
+	}
+
 }
 
 @media screen and (min-width: 660px) {
