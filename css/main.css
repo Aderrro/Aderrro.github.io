@@ -53,6 +53,7 @@ h1 {
 	font-size: 3em;
 	font-weight: normal;
 	line-height: 0.8em;
+	text-shadow: 5px 8px 15px black;
 }
 
 nav {
@@ -79,6 +80,7 @@ nav a {
 
 
 footer {
+    height:60px;
 	font-size: 0.75em;
 	text-align: center;
 	padding-top: 50px;
@@ -104,6 +106,7 @@ nav a.selected, nav a:hover {
 body {
 	background-color: white;
 	color: #999;
+    padding-bottom:60px;
 }
 
 /****************************

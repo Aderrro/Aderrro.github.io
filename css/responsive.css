@@ -21,7 +21,7 @@
 		width: 28.3333%;
 	}
 	
-	#galeria li:nth-child(4n) {
+	#galeria li:nth-child(3n+1) {
 		clear: left;
 	}
 
